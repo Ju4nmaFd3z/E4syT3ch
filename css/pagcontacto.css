@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background: url(recursos/fondo.jpg);
+  background-repeat: repeat;
+  background-position: center;
+}
+
+/*---------------------------------------------------------------------------HEADER---------------------------------------------------------------------------*/
+
+#header {
+  background-color: #232323;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  top: 0;
+  z-index: 2;
+}
+
+.navHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  gap: 450px;
+}
+
+.imagotipoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.isotipoHeader {
+  width: 60px;
+  height: 60px;
+}
+
+.logotipoHeader {
+  color: white;
+  font-size: 32px;
+}
+
+.techHeader {
+  color: #f6a700;
+}
+
+.enlacesHeader {
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.enlacesHeader a {
+  text-decoration: none;
+  color: white;
+  padding: 31px 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.inicio:hover,
+.servicios:hover,
+.contacto:hover {
+  background-color: #f6a700;
+  transition-duration: 0.5s;
+}
+
+/*---------------------------------------------------------------------------CUERPO---------------------------------------------------------------------------*/
+
+h1 {
+  text-align: center;
+  color: #232323;
+}
+
+#formularioContacto {
+  max-width: 600px;
+  margin: 125px auto 100px;
+  background: #e6e6e6;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #232323;
+}
+
+.formularioH {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.formSeparador {
+  border: 0;
+  height: 2px;
+  background: #232323;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-size: 16px;
+  color: #232323;
+  margin-bottom: 5px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+form textarea {
+  resize: none;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 16px;
+  color: #232323;
+  margin-bottom: 10px;
+}
+
+fieldset .preferencias {
+  display: inline-flex;
+  align-items: first baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+fieldset .preferencias label {
+  font-size: 16px;
+  color: #232323;
+}
+
+form #opcionNewsletter {
+  display: inline-flexbox;
+  align-items: first baseline;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+form #opcionNewsletter label {
+  font-size: 16px;
+  color: #232323;
+}
+
+#submitB {
+  background-color: #f6a700;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+  display: block;
+  margin: 15px auto 0;
+}
+
+#submitB:hover {
+  background-color: #e69400;
+}
+
+/*---------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/
+
+footer {
+  background-color: #232323;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+  z-index: 2;
+}
+
+.techFooter {
+  color: #f6a700;
+}
+
+.contactoFooter {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contactoFooter a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.contactoFooter img {
+  width: 26px;
+  height: 26px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contactoFooter img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}

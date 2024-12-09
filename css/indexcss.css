@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+/*---------------------------------------------------------------------------HEADER---------------------------------------------------------------------------*/
+
+#header {
+  background-color: #232323;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  top: 0;
+  z-index: 2;
+}
+
+.navHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  gap: 450px;
+}
+
+.imagotipoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.isotipoHeader {
+  width: 60px;
+  height: 60px;
+}
+
+.logotipoHeader {
+  color: white;
+  font-size: 32px;
+}
+
+.techHeader {
+  color: #f6a700;
+}
+
+.enlacesHeader {
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.enlacesHeader a {
+  text-decoration: none;
+  color: white;
+  padding: 31px 10px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.inicio:hover,
+.servicios:hover,
+.contacto:hover {
+  background-color: #f6a700;
+  transition-duration: 0.5s;
+}
+
+/*---------------------------------------------------------------------------CUERPO---------------------------------------------------------------------------*/
+
+#quienesSomos {
+  background-color: rgb(230, 230, 230);
+  border: 1px solid #232323;
+  margin-top: 130px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+  padding: 30px;
+  padding-top: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px #232323;
+  display: flex;
+  transition-duration: 0.5s;
+}
+
+#experienciaMaria {
+  background-color: rgb(230, 230, 230);
+  border: 1px solid #232323;
+  margin-top: 75px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+  padding: 30px;
+  padding-top: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px #232323;
+  display: flex;
+  transition-duration: 0.5s;
+}
+
+#quienesSomos:hover,
+#experienciaMaria:hover {
+  box-shadow: 0px 0px 35px #232323;
+}
+
+#quienesSomosH,
+#experienciaMariaH {
+  font-family: doto;
+  font-size: 45px;
+  color: #232323;
+  width: 100%;
+}
+
+#quienesSomosP,
+#experienciaMariaP {
+  font-size: 20px;
+  text-align: justify;
+  width: 55%;
+  margin-bottom: 25px;
+}
+
+#quienesSomosImg {
+  float: right;
+  width: 38%;
+  margin-top: -55px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 45px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+#experienciaMariaImg {
+  opacity: 90%;
+  float: right;
+  width: 38%;
+  margin-top: -55px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 45px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+#experienciaMariaAudio {
+  border: 2px solid #232323;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+#nuestraHistoriaB {
+  border: none;
+  background-color: #d8d8d8;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+#nuestraHistoriaB a {
+  text-decoration: none;
+  color: #232323;
+}
+
+#nuestraHistoriaB:hover {
+  background-color: #f6a700;
+  box-shadow: 0px 0px 15px #232323;
+}
+
+#dondeEstamos {
+  background-color: rgb(230, 230, 230);
+  border: 1px solid #232323;
+  margin-top: 75px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+  padding: 30px;
+  padding-top: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px #232323;
+  transition-duration: 0.5s;
+}
+
+#dondeEstamos:hover {
+  box-shadow: 0px 0px 35px #232323;
+}
+
+#dondeEstamosH {
+  font-family: doto;
+  font-size: 45px;
+  color: #232323;
+}
+
+.dondeEstamosP {
+  font-size: 20px;
+}
+
+#divMapa {
+  border: 2px dotted #232323;
+  border-radius: 10px;
+}
+
+#mapa {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+#curso {
+  background-color: rgb(230, 230, 230);
+  border: 1px solid #232323;
+  margin-top: 75px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 115px;
+  padding: 30px;
+  padding-top: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px #232323;
+  display: flex;
+  transition-duration: 0.5s;
+}
+
+#curso:hover {
+  box-shadow: 0px 0px 35px #232323;
+}
+
+#cursoH {
+  font-family: doto;
+  font-size: 45px;
+  color: #232323;
+  width: 100%;
+}
+
+#cursoP {
+  font-size: 23px;
+  text-align: justify;
+  width: 55%;
+  margin-bottom: 25px;
+}
+
+#cursoIframe {
+  float: right;
+  width: 38%;
+  margin-top: -55px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 45px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+#cursoB {
+  border: none;
+  background-color: #d8d8d8;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+#cursoB a {
+  text-decoration: none;
+  color: #232323;
+}
+
+#cursoB:hover {
+  background-color: #f6a700;
+  box-shadow: 0px 0px 15px #232323;
+}
+
+/*---------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/
+
+footer {
+  background-color: #232323;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+  z-index: 2;
+}
+
+.techFooter {
+  color: #f6a700;
+}
+
+.contactoFooter {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contactoFooter a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.contactoFooter img {
+  width: 26px;
+  height: 26px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contactoFooter img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
